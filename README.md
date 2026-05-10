@@ -433,9 +433,9 @@ MIT License - see [LICENSE](LICENSE) file.
 
 ## Support
 
-- 📧 Email: support@example.com
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/tomato_sentinel/issues)
-- 📖 Docs: [Documentation](https://docs.example.com)
+- 📧 Email: chaiwat.nsun@gmail.com
+- 🐛 Issues: [GitHub Issues](https://github.com/ChaiwaT-Sun/tomato_sentinel/issues)
+
 
 ## Acknowledgments
 
