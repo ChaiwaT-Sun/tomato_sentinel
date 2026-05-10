@@ -1,0 +1,44 @@
+name: tomato_sentinel
+description: Production-grade Flutter security SDK providing SSL pinning, root/jailbreak detection, anti-tampering, Play Integrity, and App Attest support.
+version: 1.0.0
+homepage: https://github.com/ChaiwaT-Sun/tomato_sentinel
+repository: https://github.com/ChaiwaT-Sun/tomato_sentinel
+issue_tracker: https://github.com/ChaiwaT-Sun/tomato_sentinel/issues
+
+environment:
+  sdk: ^3.7.2
+  flutter: '>=3.29.0'
+
+topics:
+  - security
+  - ssl-pinning
+  - root-detection
+  - jailbreak-detection
+  - mobile-security
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+  dio: ^5.4.0
+  crypto: ^3.0.3
+  convert: ^3.1.1
+  meta: ^1.11.0
+  riverpod: ^2.4.9
+  flutter_riverpod: ^2.4.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  mockito: ^5.4.4
+  build_runner: ^2.4.7
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: ts.sun.tomato_sentinel
+        pluginClass: TomatoSentinelPlugin
+      ios:
+        pluginClass: TomatoSentinelPlugin
